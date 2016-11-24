@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alice Rosier EDA blog javascript basics</title>
+    <meta charset="UTF-8">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="../styles/main.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div class="row">
+       <header>
+        <div class="four columns">
+          <div class="blog-logo">
+            <img class="logo-image" src="../images/logo.png" alt="star and stripes logo">
+          </div>
+        </div> <!-- END OF FOUR COLUMN -->
+
+        <div class="eight columns">
+          <div class="nav-button">
+            <!-- Primary buttons -->
+              <a class="button button-primary" href="../index.html">homepage</a>
+          </div><!--END OF nav-button-->
+        </div><!-- END OF EIGHT COLUMN -->
+      </header>
+      </div><!--END OF ROW-->
+
+      <div class="row">
+        <div class="main-content-box">
+
+
+        <div class="twelve columns">
+          <div class="text-box-3">
+            <h2>How does JavaScript compare to HTML and CSS?</h2>
+            <p>JS is one in a trio of coding languages that can join together to form one webpage. HTML is our basic structure of the site, creating paragraphs, blocks and tables etc, and CSS styles the site. The main function of JS is to tell the browser how to response to interactions from the user, mostly from inputing data. A function in JS takes in inputs, does something with them, and produces an output.</p>
+          </div><!--END OF TEXT-BOX-->
+        </div><!--END OF tweleve COLUMN--->
+
+
+
+      <div class="row">
+        <div class="six columns">
+          <div class="text-box-3">
+            <h2>Control flow and loops</h2>
+            <p>JS supports flow statements like if, for, and  while. Here are a few analogies to help explain in everyday examples:<br/><br/>
+              <strong>IF</strong> I have coffee THEN have 2 sugars, otherwise just have tea.<br/><br/>
+
+              <strong>WHILE</strong> i am running, i want endemondo to time me and track my pace, but as soon as i stop running i want it to stop tracking my time and pace.<br/><br/>
+
+              A <strong>For</strong> loop already know when to stop at some point in time.
+              <br/> For example,  when running, i want endemondo to log the timer, every 1km so i know my time - but i want it to stop timing when i stop running.</p>
+          </div><!--END OF TEXT-BOX-->
+        </div><!--END OF SIX COLUMN--->
+
+          <div class="six columns">
+            <div class="pic-wireframe">
+              <img class="logo-image" src="../images/loops.jpeg" alt="image of loops">
+            </div>
+          </div><!--END OF THREE COLUMNS-->
+        </div><!--end of row-->
+
+
+        <div class="row">
+          <div class="twelve columns">
+            <div class="text-box-3">
+              <h2>Explain the difference between accessing data from arrays and object literals.</h2>
+              <p>An array is a special variable, which can hold more than one value at a time.You refer to an array element by referring to the index number.<br/>
+
+              <h3>Accessing data from arrays:</h3>
+
+              <div class="code-box">
+                <p>Array:<xmp>var colours = [“pink”, “black”, “gold”, “orange”];</xmp>
+                <p>To access data we use bracket [ ] notation and refer to index: </p><xmp>countries [0] // returns “pink”.</xmp></p>
+              </div><!--end of code-box-->
+
+              <h3>Accessing data from literals:</h3>
+              <p>An object literal is a comma-separated list of name-value pairs wrapped in curly braces. Object literals encapsulate data, enclosing it in a tidy package. The property values can be of any data type, including array literals, functions, and nested object literals.</p>
+
+              <div class="code-box">
+                <p>Object:<xmp>var son = {name: “Charlie”, age: 3,  skin: “fair”};</xmp>
+                <p>To access data we can use literal notation: <xmp>son.skin // returns “fair”</xmp></p>
+              </div><!--end of code-box-->
+            </div><!--END OF TEXT-BOX-->
+          </div><!--END OF tweleve COLUMN--->
+
+        </div><!--end of row-->
+
+</div><!--END OF CONTAINER-->
+</body>
+</html>

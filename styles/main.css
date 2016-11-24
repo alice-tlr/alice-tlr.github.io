@@ -1,0 +1,464 @@
+/* COLOURS USED
+#d0ad55
+#000
+#1d1c1c
+#7cbab2
+#262626
+
+font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+*/
+* {
+  letter-spacing: 0.1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font:white;
+  background-color: #1d1c1c;
+}
+.page-wrapper {
+  {background:transparent url(Img/logo-big.png) no-repeat center center;}
+}
+
+//* homepage *//
+
+.container {
+
+}
+
+.row{
+
+}
+header {
+  height: 100px;
+  background-color: #1d1c1c;
+  width:960px;
+  position:fixed;
+  margin-bottom: 100px;
+  z-index: 1000;
+
+}
+
+footer {
+  height: 100px;
+  background-color: #000;
+  width:960px;
+
+}
+/*------DROPDOWN BUTTON-------*/
+
+
+h1 {
+  color: #d0ad55;
+  text-align: center;
+  padding: 15px;
+  margin: 75px;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  background-color: #171414;
+  padding:20px;
+}
+.blog-title h1 {
+
+  background-color: #262626;
+  color: #7cbab2;
+  text-align: left;
+}
+.main-content-box {
+  position: relative;
+  margin: 0 auto;
+  top:110px;
+}
+
+.main-content-box h1 {
+  color: #7cbab2;
+  text-align: left;
+  padding: 15px;
+  margin:40px 15px 15px;
+  font-size: 40px;
+  font-weight: 400;
+  font-weight: lighter;
+  font-family: 'Dosis', sans-serif;
+  background-color: #171414;
+}
+
+.main-content-box .central-h1 h1 {
+  color: #7cbab2;
+  text-align: center;
+  padding: 15px;
+  margin:40px 15px 15px;
+  font-size: 40px;
+  font-weight: 400;
+  font-weight: lighter;
+  font-family: 'Dosis', sans-serif;
+  background-color: #171414;
+}
+.title-box h1 {
+  color: #d0ad55;
+}
+
+h4 span {
+  border-bottom-style:groove;
+  text-align: center;
+
+}
+
+h3 {
+  color: #d0ad55;
+  padding: 15px;
+  margin:20px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+h2, h3 {
+  color: #d0ad55;
+  padding: 15px;
+  margin:50px;
+}
+
+.text-box {
+  padding:15px;
+  margin: 20px;
+}
+.text-box h2, {
+  color:#7cbab2;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  font-weight: lighter;
+  text-align: left;
+  margin:30px 10px;
+}
+
+.text-box-1 h2 {
+  color:#7cbab2;
+  padding: 15px;
+  font-weight: lighter;
+  text-align: left;
+  margin:30px 15px;
+}
+.text-box-2 h2 {
+  color:#7cbab2;
+  padding: 15px;
+  font-weight: lighter;
+  text-decoration: underline;
+  text-align: left;
+  margin:30px 15px;
+}
+.text-box-3 h2 {
+  color:#d0ad55;
+  padding: 15px;
+  font-weight: lighter;
+  text-align: center;
+  margin:30px 15px 5px;
+}
+.text-box-3 ul li {
+  color: #bbb7ab;
+  list-style-type: circle;
+}
+
+.code-box ul li {
+  color: #1d1c1c;
+  list-style-type: circle;
+}
+
+
+
+.text-box-1 p .text-box-2 p {
+  padding:15px;
+  margin: 15px 15px 20px;
+}
+
+p, xmp {
+  color: #bbb7ab;
+  text-align: left;
+  font-weight: 200;
+}
+
+.text-box p {
+  color: #bbb7ab;
+  text-align: left;
+  margin: 30px 10px;
+
+}
+
+a {
+  color: #bbb7ab;
+  text-decoration: none;
+  text-align: center;
+}
+a:hover{
+  color: #7cbab2;
+}
+
+.nav-button {
+  float: right;
+  margin:30px;
+}
+.title-box {
+  text-align: center;
+}
+
+.logo-image {
+  display: block;
+  margin: 2.5rem auto 0;
+  max-width:100%;
+  height:auto;
+
+
+}
+.pic-wireframe .logo-image {
+  display: block;
+  margin: 2.5rem auto 0;
+  max-width:100%;
+  height:auto;
+  padding:60px;
+
+}
+
+
+.blog-logo .logo-image {
+  margin: 1rem 0.5rem 0.5rem;
+  padding:15px;
+}
+.pic-responsive {
+  border-style: solid; #7cbab2;
+}
+.pic-quote  {
+  float: left;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+span ul li {
+  color: grey;
+  font-size: 45px;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  font-size:18px;
+}
+
+.useful-links li, .contact-box li {
+  text-align: left;
+}
+.menu-links li {
+  list-style-type: none;
+  font-size:16px;
+  text-align: center;
+  padding: 5px;
+}
+
+.chapter-box {
+    padding: 15px;
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #d0ad55;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: #d0ad55;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 5em;
+    width: 15em;
+    font-size: 20px;
+}
+.chapter-box p {
+  text-align: center;
+}
+#home-page-logo{
+  padding: 15px;
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 5em;
+  width: 15em;
+}
+
+#home-page-logo img {
+  padding: 20px;
+  margin: auto;
+  position: relative;
+  top: 0px;
+  left: 50px;
+}
+
+
+
+.sprint-box {
+    padding: 15px;
+    border-left-style: solid;
+    border-left-color: #d0ad55;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 5em;
+    width: 47em;
+}
+
+.sprint-box h2, .technical-blog-box h2 {
+
+    color:#d0ad55;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    font-weight: lighter;
+
+}
+.research-box h2 {
+  color:#d0ad55;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  font-weight: lighter;
+  text-align: right;
+}
+.useful-links, .contact-box {
+  margin:60px 15px;
+  padding:10px;
+}
+.useful-links h2, .contact-box h3 {
+  color:#7cbab2;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  font-weight: lighter;
+  text-align: left;
+}
+.contact-box-meditation {
+  background-color: #000;
+  margin:50px 10px;
+  padding-bottom: 30px;
+}
+
+.contact-box-meditation h4 {
+  color:#7cbab2;
+  padding: 30px;
+  margin: 50px
+  text-decoration: underline;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.menu-links h2 {
+  color:#7cbab2;
+  padding-bottom: 20px;
+  text-decoration: underline;
+  font-weight: lighter;
+  text-align: center;
+  padding:15px;
+}
+
+.menu-links {
+  background-color: #000;
+  margin:50px 10px;
+  padding-bottom: 30px;
+}
+.menu-links ul{
+  margin:15px;
+}
+.code-box {
+  background-color: #A1C7C2;
+  padding:25px;
+  margin-bottom:30px;
+}
+.text-box-3 .code-box h4 {
+  color: #1d1c1c;
+}
+.code-box p, .code-box xmp {
+  color: #1d1c1c;
+}
+.useful-links ul {
+
+}
+
+.sprint-box h3, .technical-blog-box h3, .research-box h3, .text-box-1 h3, .text-box-3 h3, .text-box-3 h4, .text-box-3 h5{
+  color:#d0ad55;
+  padding-bottom: 5px;
+  font-weight: lighter;
+
+}
+.text-box-3 li {
+  text-align: left;
+  color: #1d1c1c;
+}
+
+.sprint-box p, .technical-blog-box  {
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+
+}
+
+.technical-blog-box {
+  padding: 15px;
+  border-left-style: solid;
+  border-left-color: #d0ad55;
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 5em;
+  width: 47em;
+}
+
+.research-box {
+  padding: 15px;
+  border-right-style: solid;
+  border-right-color: #d0ad55;
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 5em;
+  width: 47em;
+}
+.technical-blog-box h4 .research-box h4{
+  color: #d0ad55;
+  text-align:;
+  font-stretch: expanded;
+}
+.research-box  li {
+  color:#d0ad55;
+}
+
+.technical-blog-box  a {
+  text-align: center;
+}
+
+
+.fav-links-box h4 {
+  color: #d0ad55;
+  padding: 15px;
+  margin-top:60px;
+  margin-bottom:20px;
+  text-align: center;
+}
+.fav-links-box p  {
+  color: #bbb7ab;
+  text-align: left;
+}
+.fav-links-box ul {
+  color: #000;
+  text-align: left;
+}
+}
+
+.footer-box {
+  color: #d0ad55;
+  border-top:
+  text-align: center;
+  padding: 15px;
+  margin: 75px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+  background-color: #171414;
+  padding:10px;
+}
+.footer-box p {
+  text-align: center;
+  text-decoration: underline;
+}
