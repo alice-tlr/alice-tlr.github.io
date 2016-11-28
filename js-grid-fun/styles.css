@@ -1,0 +1,110 @@
+
+
+/*{
+  border:1px solid red;
+}*/
+body {
+  background-color: #000;
+
+}
+
+.container {
+ margin-top:100px;
+ border: 100px;
+ background-color: #000;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  padding:100px 20px;
+  margin-top:100px;
+  color: #fff;
+  border-bottom: 2px dashed #16DC88;
+}
+h6 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #16DC88;
+}
+
+.grid {
+
+}
+
+.two-coloumns {
+  margin:none;
+}
+
+.grid-1:hover, .grid-2:hover, .grid-3:hover, .grid-4:hover, .grid-5:hover, .grid-6:hover {
+  transition: border-radius 0.05s;
+  border-radius: 50%;
+}
+
+.grid-1{
+  background-color: #FF72B8;
+  height:85px;
+  width:85px;
+  margin: 30px;
+}
+.grid-1:hover {
+  background-color: #16DC88;
+}
+
+.grid-2{
+  background-color:#F3EE78;
+  height:85px;
+  width:85px;
+  margin: 30px;
+}
+.grid-2:hover {
+  background-color:#B698FF;
+}
+
+
+.grid-3{
+  background-color:#16DC88;
+  height:85px;
+  width:85px;
+  margin: 30px;
+}
+
+.grid-3:hover {
+  background-color: #FF5A59;
+}
+
+
+.grid-4{
+  background-color:#B698FF;
+  height:85px;
+  width:85px;
+  margin: 30px;
+}
+
+.grid-4:hover {
+  background-color: #05FFFF;
+}
+
+
+.grid-5{
+  background-color: #FF5A59;
+  height:85px;
+  width:85px;
+  margin: 30px;
+}
+
+.grid-5:hover {
+  background-color: #FF72B8;
+}
+
+
+.grid-6{
+  background-color: #05FFFF;
+  height:85px;
+  width:85px;
+  margin: 30px;
+}
+
+.grid-6:hover {
+  background-color: #F3EE78;
+}
